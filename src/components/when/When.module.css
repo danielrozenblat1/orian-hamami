@@ -1,0 +1,100 @@
+.cube {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+    padding:15px;
+    box-shadow: 0 0 15px 5px rgba(249, 200, 165, 0.5);
+    animation: shadowPulse 2s infinite ease-in-out;
+    border-radius: 15px;
+
+  }
+  
+  @keyframes shadowPulse {
+    0%, 100% {
+      box-shadow: 0 0 5px 1px rgba(53, 53, 53, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 10px 1px rgba(21, 21, 21, 0.3);
+    }
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:100%;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-family: "Assistant";
+    text-align: center;
+    margin: 3% auto;
+    direction: rtl;
+    width: 100%;
+    text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.3);
+    color: rgb(0, 0, 0);
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    margin: 0 auto;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    font-family: "AssistantR";
+    text-align: center;
+    margin: 2% auto;
+    direction: rtl;
+    width: 100%;
+    text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.158);
+    color: rgb(0, 0, 0);
+  }
+  
+  @media only screen and (max-width: 350px) {
+    .cube {
+      width: 260px;
+    }
+  
+    .title {
+      font-size: 1.4rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+    }
+  }
+  
+  @media only screen and (min-width: 350px) and (max-width: 450px) {
+    .cube {
+      width: 300px;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .description {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media only screen and (min-width: 450px) and (max-width: 550px) {
+    .cube {
+      width: 370px;
+    }
+  
+    .title {
+      font-size:1.8rem;
+    }
+  
+    .description {
+      font-size: 1.15rem;
+    }
+  }
+  
