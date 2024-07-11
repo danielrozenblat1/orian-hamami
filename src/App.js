@@ -8,6 +8,7 @@ import Recommends from './components/recommends/Recommends';
 import ThirdScreen from './screens/ThirdScreen';
 import ProcessSteps from './components/step/Step';
 import BasicAccordion from './components/Akordion/Akordion';
+import Messages from './components/recommends/Messages';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -38,6 +39,7 @@ function App() {
   <ThirdScreen/>
   <Recommends/>
   <ProcessSteps/>
+  <Messages/>
   <BasicAccordion/>
   </>
 }
