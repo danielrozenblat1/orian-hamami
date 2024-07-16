@@ -13,7 +13,10 @@ import result11 from "../../images/אוריאן המלצה 11.png"
 import result12 from "../../images/אוריאן המלצה 12.png"
 import result13 from "../../images/אוריאן המלצה 13.png"
 
-
+import result14 from "../../images/אוריאן חממי המלצה 14.png"
+import result15 from "../../images/אוריאן חממי המלצה 15.png"
+import result16 from "../../images/אוריאן חממי המלצה 16.png"
+import result17 from "../../images/אוריאן חממי המלצה 17.png"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -33,6 +36,16 @@ const Messages=()=>{
                      
       };
       const content = [
+
+        {
+          type: 'image',
+          src: result16,
+        },
+  
+        {
+          type: 'image',
+          src: result17,
+        },
         {
           type: 'image',
           src: result1,
@@ -91,8 +104,15 @@ const Messages=()=>{
           src: result13,
         },
  
-     
+        {
+          type: 'image',
+          src: result14,
+        },
   
+        {
+          type: 'image',
+          src: result15,
+        },
 
         ];  
 return <>

@@ -37,6 +37,18 @@ const Recommends=()=>{
       const content = [
         {
           type: 'image',
+          src: result19,
+        },
+        {
+          type: 'image',
+          src: result17,
+        },
+        {
+          type: 'image',
+          src: result18,
+        },
+        {
+          type: 'image',
           src: result1,
         },
         {
@@ -93,18 +105,8 @@ const Recommends=()=>{
           type: 'image',
           src: result16,
         },
-        {
-          type: 'image',
-          src: result17,
-        },
-        {
-          type: 'image',
-          src: result18,
-        },
-        {
-          type: 'image',
-          src: result19,
-        },
+     
+    
   
 
         ];  
