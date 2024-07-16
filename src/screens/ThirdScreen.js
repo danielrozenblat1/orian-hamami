@@ -4,6 +4,7 @@ import cars from "../Icons/wired-outline-888-traffic-jam.json"
 import mirror from "../Icons/wired-outline-1589-makeup-mirror.json"
 import When from "../components/when/When"
 import lips from "../Icons/wired-outline-1597-lips.json"
+import face from "../Icons/wired-outline-1276-acne-herpes.json"
 import laser from "../Icons/wired-outline-1001-shop-scanner.json"
 import { useEffect } from "react"
 import ScrollReveal from "scrollreveal"
@@ -28,12 +29,11 @@ return <>
 <div className={styles.row}>
 
 <When title="הגבות לא נראות טבעיות" description="את יוצאת מהטיפול, מסתכלת במראה ולא מרוצה מהתוצאה, הגבות לא נראות לך טבעיות ואת לא מרוצה מהתוצאות" icon={mirror}/>
-<When title="את מפחדת ממראה גס בגבות" description="את מאוד רוצה לעשות שינוי בגבות שלך , קצת למלא חורים וקצת לדייק צורה וסימטריה אבל חוששת ממראה לא טבעי וגס 
-נמאס לך להוציא כסף על טיפולי פנים לא אפקטיביים
-את כבר תקופה ארוכה עוברת מקוסמטיקאית לקוסמטיקאית אבל בעיית העור לא נפתרת" icon={think}/>
+<When title="את מפחדת ממראה גס בגבות" description="את מאוד רוצה לעשות שינוי בגבות שלך , קצת למלא חורים וקצת לדייק צורה וסימטריה אבל חוששת ממראה לא טבעי וגס " icon={think}/>
 <When title="כל טיפול נמצא במקום אחר" description="בכל פעם מחדש לסוע לעיר אחרת, לטיפול אחר ולא להיות מסופקת לגמרי" icon={cars}/>
 <When title="את מפחדת לעשות מילוי שפתיים" description="כבר תקופה ארוכה שאת רוצה למלא את השפתיים אבל עד עכשיו ראית רק תוצאות מוגזמות ולא טבעיות" icon={lips}/>
 <When title="טיפולי הלייזר אף פעם לא עובדים" description="בזבזת כבר המון כסף וזמן על אינספור טיפולי לייזר שלא עשו שינוי או שלא היית מרוצה מהתוצאה" icon={laser}/>
+<When title="טיפולי הפנים לא אפקטיביים" description="את כבר תקופה ארוכה עוברת מקוסמטיקאית לקוסמטיקאית אבל בעיות העור לא נפתרות" icon={face}/>
 
 </div>
 <div className={styles.title}>זה לא חייב להיות ככה!</div>

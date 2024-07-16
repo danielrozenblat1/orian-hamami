@@ -13,7 +13,9 @@ import result13 from "../../images/אוריאן חממי לקוחה 13.png"
 import result14 from "../../images/אוריאן חממי לקוחה 14.png"
 import result15 from "../../images/אוריאן חממי לקוחה 15.png"
 import result16 from "../../images/אוריאן חממי לקוחה 16.png"
-
+import result17 from "../../images/אוריאן חממי לקוחה 17.png"
+import result18 from "../../images/אוריאן חממי לקוחה 18.png"
+import result19 from "../../images/אוריאן חממי לקוחה 19.png"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -91,7 +93,18 @@ const Recommends=()=>{
           type: 'image',
           src: result16,
         },
-     
+        {
+          type: 'image',
+          src: result17,
+        },
+        {
+          type: 'image',
+          src: result18,
+        },
+        {
+          type: 'image',
+          src: result19,
+        },
   
 
         ];  
