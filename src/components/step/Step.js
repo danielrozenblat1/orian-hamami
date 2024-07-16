@@ -26,43 +26,76 @@ const Step = ({ title, description, index }) => {
 };
 
 const ProcessSteps = () => {
-  const steps = [
+  const treatments = [
     {
-      title: "פגישת ייעוץ",
-      description: "פגישה ללא עלות לתיאום ציפיות והצגת סקיצה מתאימה."
-    },
-       {
-      title: "קבלת החומרים המתאימים",
-      description: "בהתאם לטיפול, תקבלי ממני קרמים/חומרים מתאימים שיכינו את האזור בצורה האידיאלית לטיפול שלנו"
+      name: "טיפולי פנים",
+      steps: [
+        {
+          title: "התאמת טיפול",
+          description: "התאמת טיפול בודד או סדרה בהתאם למצב העור ושילוב טכנולוגיות מתקדמות עד לתוצאות מקסימליות בטיפול."
+        },
+        {
+          title: "התאמת חומרים",
+          description: "התאמה מדויקת של חומרים שמתאימים למצב העור שלך כדי להמשיך טיפול משלים בבית."
+        },
+        {
+          title: "מעקב וליווי",
+          description: "מעקב וליווי צמוד שלי עד שנגיע לתוצאה שבעקבותיה הגעת אלי לטיפול."
+        }
+      ]
     },
     {
-      title: "טיפול ראשון",
-      description: " הטיפול אורך למשך כשעה, בסוף הטיפול את מקבלת ממני הוראות להחלמה לתקופה הקרובה."
+      name: "מיקרובליידינג",
+      steps: [
+        {
+          title: "פגישת ייעוץ",
+          description: "פגישת ייעוץ ללא עלות לתיאום ציפיות והצגת סקיצה מושלמת למבנה הפנים שלך."
+        },
+        {
+          title: "הטיפול",
+          description: "הטיפול אורך כשעה ובסוף הטיפול את מקבלת ממני דף הוראות מלא לטיפול בעור לאחר איפור קבוע בבית."
+        },
+        {
+          title: "טיפול נוסף",
+          description: "לאחר כחודש וחצי את מגיעה לטיפול נוסף לקבלת התוצאה הסופית."
+        }
+      ]
     },
     {
-      title: "טיפול שני",
-      description: "לאחר חודש וחצי, את מגיעה לבדיקה ולטיפול נוסף לקבלת התוצאה הסופית."
-    },
- 
-    // {
-    //   title: "הסרת שיער",
-    //   description: "פגישת ייעוץ, אבחון העור והשיער, והתאמת סדרת טיפולים או טיפול בודד."
-    // },
-    // {
-    //   title: "שירותים נוספים",
-    //   description: "מניקור ופדיקור זמינים גם כן בקליניקה."
-    // }
+      name: "מילוי שפתיים בחומצה הילארונית",
+      steps: [
+        {
+          title: "תיאום ציפיות",
+          description: "אנחנו עושות תיאום ציפיות לפני הטיפול."
+        },
+        {
+          title: "הטיפול",
+          description: "טיפול שאורך כ-20 דקות. אני מכניסה לך את החומר על ידי עט הילארונית ללא מחט וללא כאבים."
+        },
+        {
+          title: "הוראות לאחר הטיפול",
+          description: "מקבלת דף הוראות מפורט לשמירה על התוצאה בבית."
+        }
+      ]
+    }
   ];
 
   return (
     <>
-      <div className={styles.header}>תהליך העבודה איתי</div>
-      <div className={styles.processSteps}>
-        {steps.map((step, index) => (
-          <Step key={index} index={index} title={step.title} description={step.description} />
-        ))}
-      </div>
-      <CustomButton text="לחצי כאן ונדבר" />
+         <div className={styles.header}>תהליך העבודה איתי</div>
+      {treatments.map((treatment, treatmentIndex) => (
+        <React.Fragment key={treatmentIndex}>
+     
+          <div className={styles.more}>{treatment.name}</div>
+          <div className={styles.processSteps}>
+            {treatment.steps.map((step, index) => (
+              <Step key={index} index={index} title={step.title} description={step.description} />
+            ))}
+          </div>
+     
+        </React.Fragment>
+      ))}
+           <CustomButton text="לחצי כאן ונדבר" />
     </>
   );
 };

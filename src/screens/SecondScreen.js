@@ -5,6 +5,7 @@ import leeshes from "../Icons/wired-outline-1575-eyelash.json"
 import manicure from "../Icons/wired-outline-1594-manicure.json"
 import pedicure from "../Icons/wired-outline-1571-pedicure.json"
 import face from "../Icons/wired-outline-1572-soap.json"
+import lips from "../Icons/wired-outline-1597-lips.json"
 import laser from "../Icons/wired-outline-1001-shop-scanner.json"
 import { useEffect } from "react"
 import ScrollReveal from "scrollreveal"
@@ -43,14 +44,16 @@ useEffect(()=>{
 <Cube icon={laser} description="הסרת שיער בלייזר" message="היי אוריאן, אשמח לשמוע עוד על טיפולי הסרת שיער בלייזר"/>
 
 </div>
-<div className={styles.row}>
-<Cube icon={pedicure} description="פדיקור" message="היי אוריאן, אשמח לשמוע עוד על טיפולי פדיקור"/>
-<Cube icon={ manicure} description="מניקור" message="היי אוריאן, אשמח לשמוע עוד על טיפולי מניקור"/>
-</div>
+<div className={styles.row}><Cube icon={lips} description="חומצה הילראונית" message="היי אוריאן, אשמח לשמוע עוד על טיפולי חומצה הילראונית"/></div>
 <div className={styles.row}>
 <Cube icon={leeshes} description="הרמת ריסים" message="היי אוריאן, אשמח לשמוע עוד על טיפולי הרמת ריסים "/>
 <Cube icon={face} description="טיפולי פנים" message="היי אוריאן, אשמח לשמוע עוד על טיפולי פנים"/>
 </div>
+<div className={styles.row}>
+<Cube icon={pedicure} description="פדיקור" message="היי אוריאן, אשמח לשמוע עוד על טיפולי פדיקור"/>
+<Cube icon={ manicure} description="מניקור" message="היי אוריאן, אשמח לשמוע עוד על טיפולי מניקור"/>
+</div>
+
 
 
     </>

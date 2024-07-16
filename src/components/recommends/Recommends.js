@@ -8,9 +8,7 @@ import result6 from "../../images/אוריאן חממי לקוחה 6.png"
 import result7 from "../../images/אוריאן חממי לקוחה 7.png"
 import result8 from "../../images/אוריאן חממי לקוחה 8.png"
 import result9 from "../../images/אוריאן חממי לקוחה 9.png"
-import result10 from "../../images/אוריאן חממי לקוחה 10.png"
-import result11 from "../../images/אוריאן חממי לקוחה 11.png"
-import result12 from "../../images/אוריאן חממי לקוחה 12.png"
+
 import result13 from "../../images/אוריאן חממי לקוחה 13.png"
 import result14 from "../../images/אוריאן חממי לקוחה 14.png"
 import result15 from "../../images/אוריאן חממי לקוחה 15.png"
@@ -76,18 +74,7 @@ const Recommends=()=>{
           type: 'image',
           src: result9,
         },
-        {
-          type: 'image',
-          src: result10,
-        },
-        {
-          type: 'image',
-          src: result11,
-        },
-        {
-          type: 'image',
-          src: result12,
-        },
+
         {
           type: 'image',
           src: result13,
@@ -109,7 +96,8 @@ const Recommends=()=>{
 
         ];  
 return <>
-<div className={styles.title} id="תוצאות">מפחדת לא לצאת עם מראה טבעי?</div>
+<div className={styles.title} id="תוצאות">מפחדת לצאת מטיפול מיקרובליידינג עם מראה לא טבעי?</div>
+<div className={styles.explain}>אני יודעת שאת חולמת על שינוי כבר שנים אך מפחדת לעשות את הצעד</div>
 <div className={styles.explain}>תחליקי בין התמונות של הבנות שכבר סמכו עלי</div>
 <div className={styles.sliderContainer}>
         <Slider {...sliderSettings}>
