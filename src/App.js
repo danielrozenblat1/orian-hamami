@@ -11,6 +11,7 @@ import BasicAccordion from './components/Akordion/Akordion';
 import Messages from './components/recommends/Messages';
 import Face from './components/recommends/Face';
 import Lips from './components/recommends/Lips';
+import ByMe from './components/ByMe/ByMe';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -45,6 +46,7 @@ function App() {
   <ProcessSteps/>
   <Messages/>
   <BasicAccordion/>
+  <ByMe/>
   </>
 }
 
