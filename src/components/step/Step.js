@@ -82,7 +82,7 @@ const ProcessSteps = () => {
 
   return (
     <>
-         <div className={styles.header}>תהליך העבודה איתי</div>
+         <div className={styles.header} id="תהליך העבודה איתי" >תהליך העבודה איתי</div>
       {treatments.map((treatment, treatmentIndex) => (
         <React.Fragment key={treatmentIndex}>
      

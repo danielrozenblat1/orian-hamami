@@ -116,7 +116,7 @@ const Messages=()=>{
 
         ];  
 return <>
-<div className={styles.title} id="תוצאות">ומי יותר אמין מהלקוחות שלי?</div>
+<div className={styles.title} id="המלצות">ומי יותר אמין מהלקוחות שלי?</div>
 <div className={styles.explain}>תחליקי בין התמונות של הבנות שכבר סמכו עלי</div>
 <div className={styles.sliderContainer}>
         <Slider {...sliderSettings}>
