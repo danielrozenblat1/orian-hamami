@@ -12,6 +12,8 @@ import Messages from './components/recommends/Messages';
 import Face from './components/recommends/Face';
 import Lips from './components/recommends/Lips';
 import ByMe from './components/ByMe/ByMe';
+import AboutMe from './components/me/Me';
+import ForthScreen from './screens/ForthScreen';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -40,12 +42,13 @@ function App() {
   <FirstScreen scrolled={scrolled}/>
   <SecondScreen/>
   <ThirdScreen/>
-  <Recommends/>
+  <AboutMe/>
+
   <Face/>
-  <Lips/>
+  <Recommends/>
   <ProcessSteps/>
   <Messages/>
-  <BasicAccordion/>
+  <ForthScreen/>
   <ByMe/>
   </>
 }

@@ -16,6 +16,7 @@ import result16 from "../../images/אוריאן חממי לקוחה 16.png"
 import result17 from "../../images/אוריאן חממי לקוחה 17.png"
 import result18 from "../../images/אוריאן חממי לקוחה 18.png"
 import result19 from "../../images/אוריאן חממי לקוחה 19.png"
+
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -35,21 +36,13 @@ const Recommends=()=>{
                      
       };
       const content = [
+  
+    
+
+    
         {
           type: 'image',
-          src: result19,
-        },
-        {
-          type: 'image',
-          src: result17,
-        },
-        {
-          type: 'image',
-          src: result18,
-        },
-        {
-          type: 'image',
-          src: result1,
+          src: result3,
         },
         {
           type: 'image',
@@ -57,18 +50,13 @@ const Recommends=()=>{
         },
         {
           type: 'image',
-          src: result2,
+          src: result1,
         },
+             
         {
           type: 'image',
-          src: result5,
+          src: result19,
         },
-        {
-          type: 'image',
-          src: result3,
-        },
-      
-    
         {
           type: 'image',
           src: result6,
@@ -76,10 +64,7 @@ const Recommends=()=>{
    
 
 
-        {
-          type: 'image',
-          src: result7,
-        },
+     
         {
           type: 'image',
           src: result8,
@@ -106,14 +91,31 @@ const Recommends=()=>{
           src: result16,
         },
      
-    
-  
-
+        {
+          type: 'image',
+          src: result2,
+        },
+        {
+          type: 'image',
+          src: result17,
+        },
+        {
+          type: 'image',
+          src: result5,
+        },
+        {
+          type: 'image',
+          src: result18,
+        },   
+        {
+          type: 'image',
+          src: result7,
+        },
         ];  
 return <>
-<div className={styles.title} id="תוצאות">מפחדת לצאת מטיפול מיקרובליידינג עם מראה לא טבעי?</div>
-<div className={styles.explain}>אני יודעת שאת חולמת על שינוי כבר שנים אך מפחדת לעשות את הצעד</div>
-<div className={styles.explain}>תחליקי בין התמונות של הבנות שכבר סמכו עלי</div>
+<div className={styles.title} id="תוצאות">מיקרובליידינג</div>
+
+<div className={styles.explain}>תחליקי בין התמונות של הבנות שכבר עשו את הצעד</div>
 <div className={styles.sliderContainer}>
         <Slider {...sliderSettings}>
           {content.map((item, index) => (

@@ -2,7 +2,8 @@ import styles from "./Recommends.module.css"
 import result1 from "../../images/אוריאן חממי לקוחה 10.png"
 import result2 from "../../images/אוריאן חממי לקוחה 11.png"
 import result3 from "../../images/אוריאן חממי לקוחה 12.png"
-
+import result20 from "../../images/אוריאן חממי לפני אחרי 1.png"
+import result21 from "../../images/אוריאן חממי לפני אחרי 2.png"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -37,9 +38,15 @@ const Face=()=>{
           src: result3,
         },
       
-    
+        {
+          type: 'image',
+          src: result20,
+        },
      
-   
+        {
+          type: 'image',
+          src: result21,
+        },
 
   
 
