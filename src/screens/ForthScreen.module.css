@@ -1,0 +1,160 @@
+.title{
+    font-size:2.5rem;
+    font-family: "Assistant";
+    text-align: center;
+    margin:2% auto;
+    direction:rtl;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.subTitle{
+    font-size:2.5rem;
+    font-family: "Assistant";
+    text-align: center;
+    margin:2% auto;
+    direction:rtl;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:1% auto;
+    justify-content: space-evenly;
+}
+.description{
+    font-size:1.4rem;
+    font-family: "AssistantR";
+    text-align: center;
+    margin:1% auto;
+    direction: rtl;
+    width:40%;
+}
+.descriptionP{
+    font-size:1.4rem;
+    font-family: "AssistantR";
+    text-align: center;
+    margin:1% auto;
+    direction: rtl;
+    width:40%;
+    padding-top: 80px;
+}
+
+.center{
+    display: flex;
+    margin:0 auto;
+    width:40%;
+}
+.image{
+    width: 100%;
+    object-fit: contain;
+}
+/* עד 350px */
+@media (max-width: 350px) {
+    .title { font-size: 1.5rem; }
+    .subTitle { font-size: 1.2rem;  }
+    .description, .descriptionP { 
+        font-size: 1rem;
+        width: 90%;
+        margin:15px auto;
+    }
+    .center { width: 90%; }
+}
+
+/* 350px - 450px */
+@media (min-width: 350px) and (max-width: 450px) {
+    .title { font-size: 1.6rem; }
+    .subTitle { font-size: 1.3rem; }
+    .description, .descriptionP { 
+        font-size: 1.1rem;
+        width: 85%;
+    }
+    .center { width: 85%; }
+}
+
+/* 450px - 550px */
+@media (min-width: 450px) and (max-width: 550px) {
+    .title { font-size: 1.8rem; }
+    .subTitle { font-size: 1.6rem; }
+    .description, .descriptionP { 
+        font-size: 1.2rem;
+        width: 80%;
+    }
+    .center { width: 80%; }
+}
+
+/* 550px - 650px */
+@media (min-width: 550px) and (max-width: 650px) {
+    .title { font-size: 2rem; }
+    .subTitle { font-size: 1.9rem; }
+    .description, .descriptionP { 
+        font-size: 1.25rem;
+        width: 75%;
+    }
+    .center { width: 75%; }
+}
+
+/* 650px - 750px */
+@media (min-width: 650px) and (max-width: 750px) {
+    .title { font-size: 2.2rem; }
+    .subTitle { font-size: 2.2rem; }
+    .description, .descriptionP { 
+        font-size: 1.3rem;
+        width: 70%;
+    }
+    .center { width: 70%; }
+}
+
+/* 750px - 850px */
+@media (min-width: 750px) and (max-width: 850px) {
+    .title { font-size: 2.4rem; }
+    .subTitle { font-size: 2.3rem; }
+    .description, .descriptionP { 
+        font-size: 1.33rem;
+        width: 65%;
+    }
+    .center { width: 65%; }
+}
+
+/* 850px - 950px */
+@media (min-width: 850px) and (max-width: 950px) {
+    .title { font-size: 2.6rem; }
+    .subTitle { font-size: 1.7rem; }
+    .description, .descriptionP { 
+        font-size: 1.36rem;
+        width: 60%;
+    }
+    .center { width: 60%; }
+}
+
+/* 950px - 1050px */
+@media (min-width: 950px) and (max-width: 1050px) {
+    .subTitle { font-size: 2.45rem; }
+    .description, .descriptionP { 
+        font-size: 1.38rem;
+        width: 55%;
+    }
+    .center { width: 55%; }
+}
+
+/* 1050px - 1150px */
+@media (min-width: 1050px) and (max-width: 1150px) {
+    .title { font-size: 2.9rem; }
+    .subTitle { font-size: 1.8rem; }
+    .description, .descriptionP { 
+        font-size: 1.39rem;
+        width: 50%;
+    }
+    .center { width: 50%; }
+}
+
+/* 1150px - 1250px */
+@media (min-width: 1150px) and (max-width: 1250px) {
+    .title { font-size: 3rem; }
+    .subTitle { font-size: 2rem; }
+    .description, .descriptionP { 
+        font-size: 1.4rem;
+        width: 45%;
+    }
+    .center { width: 45%; }
+}

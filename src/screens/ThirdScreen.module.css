@@ -1,0 +1,131 @@
+.title{
+    font-size:2.5rem;
+    font-family: "Assistant";
+    text-align: center;
+    margin:2% auto;
+    direction:rtl;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.description{
+    font-size:1.4rem;
+    font-family: "AssistantR";
+    text-align: center;
+    margin:2% auto;
+    direction:rtl;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:1% auto;
+    justify-content: space-evenly;
+}
+/* עד 350px */
+@media (max-width: 350px) {
+    .row {
+        flex-direction: column;
+        margin: 1% auto;
+    }
+    .title { font-size: 1.9rem; }
+    .description { 
+        font-size: 1rem;
+        width: 90%;
+    }
+    
+}
+
+/* 350px - 450px */
+@media (min-width: 350px) and (max-width: 450px) {
+    .row {
+        flex-direction: column;
+        margin: 1.2% auto;
+    }
+    .title { font-size: 2.2rem; width:95%; }
+    .description { 
+        font-size: 1.1rem;
+        width: 85%;
+    }
+}
+
+/* 450px - 550px */
+@media (min-width: 450px) and (max-width: 550px) {
+    .row {
+        flex-direction: column;
+        margin: 1.4% auto;
+    }
+    .title { font-size: 2.3rem;width:95%; }
+    .description { 
+        font-size: 1.2rem;
+        width: 80%;
+    }
+}
+
+/* 550px - 650px */
+@media (min-width: 550px) and (max-width: 650px) {
+    .row {
+        flex-direction: column;
+        margin: 1.6% auto;
+    }
+    .title { font-size: 2.6rem; }
+    .description { 
+        font-size: 1.25rem;
+        width: 75%;
+    }
+}
+
+/* 650px - 750px */
+@media (min-width: 650px) and (max-width: 750px) {
+    .row { margin: 1.7% auto; }
+    .title { font-size: 2.8rem; }
+    .description { 
+        font-size: 1.3rem;
+        width: 70%;
+    }
+}
+
+/* 750px - 850px */
+@media (min-width: 750px) and (max-width: 850px) {
+    .row { margin: 1.8% auto; }
+    .title { font-size: 3rem; }
+    .description { 
+        font-size: 1.33rem;
+        width: 65%;
+    }
+}
+
+/* 850px - 950px */
+@media (min-width: 850px) and (max-width: 950px) {
+    .row { margin: 1.9% auto; }
+    .title { font-size: 3.2rem; }
+    .description { 
+        font-size: 1.36rem;
+        width: 60%;
+    }
+}
+
+/* 950px - 1050px */
+@media (min-width: 950px) and (max-width: 1050px) {
+    .title { font-size: 3.3rem; }
+    .description { 
+        font-size: 1.38rem;
+        width: 55%;
+    }
+}
+
+/* 1050px - 1150px */
+@media (min-width: 1050px) and (max-width: 1150px) {
+    .title { font-size: 3.4rem; }
+    .description { 
+        font-size: 1.39rem;
+        width: 50%;
+    }
+}
+
+/* 1150px - 1250px */
+@media (min-width: 1150px) and (max-width: 1250px) {
+    .title { font-size: 3.5rem; }
+    .description { 
+        font-size: 1.4rem;
+        width: 45%;
+    }
+}
